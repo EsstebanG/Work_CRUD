@@ -3,9 +3,94 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Home | WorkCRUD </title>
+        <!-- Pure CSS implementation -->
+        <link rel="stylesheet" href="./Settings/Styles/index.css">
+        <!-- Pure JS implementation -->
+        <script src="./Settings/js/index.js" defer></script>
+        <!-- Bootstrap implementation -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+        <!-- Font Awesome implementation -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- Icon page -->
+        <link rel="icon" href="./Settings/Images/WorkCRUD_icon.png" type="image/x-icon">
+        <title> Home | WorkCrud </title>
     </head>
-    <body>
+    <body id="general-container">
+        <header>
+            <div class="header-container">
+                <h1 class="header-title"> WorkCrud </h1>
+                <nav>
+                    <a href="./index.html"> Home </a>
+                    <a href=""> Contact </a>
+
+                    <button type="button" id="btnSignIn" class="btn btn-primary"> <b> Sign In </b> </button>
+                    <button type="button" id="btnRegister" class="btn btn-secondary"> <b> Register </b> </button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="content">
+                <section id="about-us">
+                    <div class="about-us-container">
+                        <div class="about-us-img">
+                            <img src="./Settings/Images/about-us.jpg" alt="welcome-image">
+                        </div>
+                        <div class="about-us-body">
+                            <h2> <b> About Us </b> </h2>
+                            <p>
+                                At WorkCrud, we understand that candidates and companies have different 
+                                needs. That’s why the site is designed to serve both user profiles: 
+                                candidates can search for jobs, build their profiles, and apply easily, 
+                                while companies can post offers, manage applications, and find the ideal talent.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="carousel-container">
+                    <div class="carousel">
+                        <img src="./Settings/Images/carousel-image1.jpg" class="slide active" alt="imagen_1">
+                        <img src="./Settings/Images/carousel-image2.jpg" class="slide" alt="imagen_2">
+                        <img src="./Settings/Images/carousel-image3.jpg" class="slide" alt="imagen_3">
+                    </div>
+                </section>
+                <section id="cards">
+                    <div class="cards-container row">
+                        <div class="card col-md-3">
+                            <div class="card-body">
+                                <i class="fa-solid fa-user"></i>
+                                <h5 class="card-title"> Candidates </h5>
+                                <a href="./Settings/pages/login.html" class="card-link">
+                                    Ready to find the right job? <br>
+                                    Create your profile, apply to job openings and take the next step in your career.
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card col-md-3">
+                            <div class="card-body">
+                                <i class="fa-solid fa-users"></i>
+                                <h5 class="card-title"> Companies </h5>
+                                <a href="./Settings/pages/login.html" class="card-link"> 
+                                    Looking for the perfect talent for your team? <br>
+                                    Post jobs, manage applications and find the ideal candidates.
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class="nav-footer-container">
+                        <a href="./index.html"> Home </a>
+                        <a href=""> Contact </a>
+                    </div>
+                    <p> &copy; 2025 WorkCRUD. All rights reserved. </p>
+                </footer>
+            </div>
+        </main>
         
+        <!-- Bootstrap implementation -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+        <!-- SweetAlert implementation -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>

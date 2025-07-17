@@ -1,5 +1,9 @@
 # WorkCRUD | JavaScript 👨‍🔧
 
+## GitHub work link: https://gist.github.com/andrescortesdev/f056168f03e4db920a4519030ea621bf
+
+### What is it WorkCRUD? 🤔
+
 Our web platform is inspired by the main job portals such as Computrabajo, LinkedIn Jobs or Elempleo. Offering an efficient, intuitive and secure space for the management of job opportunities. The website is designed to handle two types of users: Candidates and Companies. Each with clearly differentiated functions and objectives.
 
 1. For candidates:
